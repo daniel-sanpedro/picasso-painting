@@ -2,7 +2,6 @@ creating a picasso painting using
 
 -html
 -css
--javascript
 
 requirements are:
 -Use grid or flex.
