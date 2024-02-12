@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  max-width: 1050px;
   width: 100%;
 }
 /* flexbox-item */
@@ -17,7 +18,7 @@
 .flexbox-item-1 {
   min-height: 100px;
   color: firebrick;
-  /* pirmary */
+  /* pirmary priority */
   position: relative;
   z-index: 100;
 }
@@ -25,7 +26,7 @@
 .flexbox-item-2 {
   min-height: 200px;
   color: black;
-  /* secondary */
+  /* secondary priority*/
   position: relative;
   z-index: 50;
 }
@@ -33,7 +34,17 @@
 .flexbox-item-3 {
   min-height: 300px;
   color: blue;
-  /* least */
+  /* least priority*/
   position: relative;
   z-index: 1;
 }
+@media only screen and (max-device-width: 1050px) {
+  .banner {
+    /* banner will only show on desktop mode */
+    display: none;
+    max-width: 1050px;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}
+
