@@ -20,4 +20,4 @@ Note: the form does not actually need to collect information! You can direct the
 for reference:
 https://www.youtube.com/watch?v=S0a7PEOi0do
 https://www.youtube.com/watch?v=250kyjq8fXY
-https://codepen.io/craigwfox/pen/BaYXrRdgit 
+https://codepen.io/craigwfox/pen/BaYXrRd 
