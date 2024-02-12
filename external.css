@@ -1,25 +1,39 @@
+/* flex container */
 .flexbox-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
-
+/* flexbox-item */
 .flexbox-item {
   width: 200px;
   margin: 10px;
   border: 3px solid #333;
   background-color: #dfdfdf;
 }
-
+/* flexbox-item-1 */
 .flexbox-item-1 {
   min-height: 100px;
+  color: firebrick;
+  /* pirmary */
+  position: relative;
+  z-index: 100;
 }
-
+/* flexbox-item-2 */
 .flexbox-item-2 {
   min-height: 200px;
+  color: black;
+  /* secondary */
+  position: relative;
+  z-index: 50;
 }
-
+/* flexbox-item-3 */
 .flexbox-item-3 {
   min-height: 300px;
+  color: blue;
+  /* least */
+  position: relative;
+  z-index: 1;
 }
