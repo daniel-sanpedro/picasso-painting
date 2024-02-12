@@ -11,13 +11,13 @@
 .flexbox-item {
   width: 200px;
   margin: 10px;
-  border: 3px solid #0011f8;
-  background-color: #dfdfdf;
+  border: 3px solid #e1e1e6;
+  background: hsl(202, 30%, 32%);
 }
 /* flexbox-item-1 */
 .flexbox-item-1 {
   min-height: 100px;
-  color: firebrick;
+  padding: 10px;
   /* pirmary priority */
   position: relative;
   z-index: 100;
@@ -25,7 +25,7 @@
 /* flexbox-item-2 */
 .flexbox-item-2 {
   min-height: 200px;
-  color: black;
+  padding: 10px;
   /* secondary priority*/
   position: relative;
   z-index: 50;
@@ -33,12 +33,12 @@
 /* flexbox-item-3 */
 .flexbox-item-3 {
   min-height: 15rem;
-  color: rgb(32, 148, 9);
+  padding: 10px;
   /* least priority*/
   position: relative;
   z-index: 1;
 }
-@media only screen and (max-device-width: 1050px) {
+@media only screen and (max-device-width: 1049px) {
   .banner {
     /* banner will only show on desktop mode */
     display: none;
@@ -54,7 +54,6 @@ body {
   background: hsl(198 17% 10%);
   
   color: hsl(27 98% 95%);
-  font: 1.2rem / 1.5 'Rubik', sans-serif;
 }
 
 /* flex */
