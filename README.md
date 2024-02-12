@@ -15,3 +15,9 @@ requirements are:
 -Add an HTML form to collect the names and emails of interested visitors.
 -It should have a submit button and the form's action will take the user to another HTML page.
 Note: the form does not actually need to collect information! You can direct the user to another HTML page by assigning a value to the <form>'s action attribute.
+
+
+for reference:
+https://www.youtube.com/watch?v=S0a7PEOi0do
+https://www.youtube.com/watch?v=250kyjq8fXY
+https://codepen.io/craigwfox/pen/BaYXrRdgit 
